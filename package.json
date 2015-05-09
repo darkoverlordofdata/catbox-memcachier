@@ -1,0 +1,32 @@
+{
+  "name": "catbox-memcachier",
+  "description": "Memcachier adapter for catbox",
+  "version": "0.0.1",
+  "author": "darkoverlordofdata",
+  "contributors": [
+    "Jacob Chapel <jacob.chapel@gmail.com> (http://lepahc.com)",
+    "Eran Hammer <eran@hammer.io> (http://hueniverse.com)"
+  ],
+  "repository": "git://github.com/darkoverlordofdata/catbox-memcachier",
+  "main": "index",
+  "keywords": [
+    "cache",
+    "catbox",
+    "memcachier"
+  ],
+  "engines": {
+    "node": ">=0.10.30"
+  },
+  "dependencies": {
+    "hoek": "2.x.x",
+    "memjs": "^0.8.5"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/darkoverlordofdata/catbox-memcachier/raw/master/license.md"
+    }
+  ]
+}
