@@ -21,8 +21,14 @@
     "hoek": "2.x.x",
     "memjs": "^0.8.5"
   },
-  "devDependencies": {},
-  "scripts": {},
+  "devDependencies": {
+    "catbox": "^4.2.2",
+    "code": "^1.4.0",
+    "lab": "^5.8.0"
+  },
+  "scripts": {
+    "test": "make test-cov"
+  },
   "licenses": [
     {
       "type": "MIT",
