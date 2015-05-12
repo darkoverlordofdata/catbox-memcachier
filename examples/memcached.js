@@ -60,7 +60,7 @@ internals.startCache = function (callback) {
 
     var options = {
         partition: 'examples',               // For redis this will store items under keys that start with examples:
-        location: '127.0.0.1:11212',         // If you don't supply, 127.0.0.1:11212 is the default
+        location: '127.0.0.1:11211',         // If you don't supply, 127.0.0.1:11211 is the default
     };
 
     internals.client = new Catbox.Client(require('../'), options);  // Replace require('../') with 'catbox-mongodb' in your own code
